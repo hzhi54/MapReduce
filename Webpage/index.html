@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSE487 Project2</title>
+    <link rel="stylesheet" href="navigation.css">
+    <script>
+        function pictureOne(){
+            document.getElementById("image").src="Picture/ccTop10.png"
+            document.getElementById("image").height="600";
+            document.getElementById("image").Width="800";
+        }
+        function pictureTwo() {
+            document.getElementById("image").src="Picture/nytTop10.png"
+            document.getElementById("image").height="600";
+            document.getElementById("image").Width="800";
+        }
+        function pictureThree(){
+            document.getElementById("image").src="Picture/twitterTop10.png"
+            document.getElementById("image").height="600";
+            document.getElementById("image").Width="800";
+        }
+        function pictureFour(){
+            document.getElementById("image").src="Picture/ccTop10Big.png"
+            document.getElementById("image").height="600";
+            document.getElementById("image").Width="800";
+        }
+        function pictureFive(){
+            document.getElementById("image").src="Picture/nytTop10Big.png"
+            document.getElementById("image").height="600";
+            document.getElementById("image").Width="800";
+
+        }
+        function pictureSix(){
+            document.getElementById("image").src="Picture/twitterTop10Big.png"
+            document.getElementById("image").height="600";
+            document.getElementById("image").Width="800";
+        }
+        function pictureSeven(){
+            document.getElementById("image").src="Picture/ccCo.png";
+            document.getElementById("image").height="800";
+            document.getElementById("image").Width="600";
+
+        }
+        function pictureEight(){
+            document.getElementById("image").src="Picture/nytCo.png"
+            document.getElementById("image").height="800";
+            document.getElementById("image").Width="600";
+        }
+        function pictureNine(){
+            document.getElementById("image").src="Picture/twitterCo.png"
+            document.getElementById("image").height="800";
+            document.getElementById("image").Width="600";
+        }
+    </script>
+</head>
+<body>
+    <div id="navigation">
+        <ul>
+            <li><a onclick="pictureOne()">CC Small Data</a></li>
+            <li><a onclick="pictureTwo()">NYT Small Data</a></li>
+            <li><a onclick="pictureThree()">Twitter Small Data</a></li>
+            <li><a onclick="pictureFour()">CC Big Data</a></li>
+            <li><a onclick="pictureFive()">NYT Big Data</a></li>
+            <li><a onclick="pictureSix()">Twitter Big Data</a></li>
+            <li><a onclick="pictureSeven()">CC Co</a></li>
+            <li><a onclick="pictureEight()">NYT Co</a></li>
+            <li><a onclick="pictureNine()">Twitter Co</a></li>
+        </ul>
+    </div>
+    <div style="text-align: center; align-content: center; padding-top: 10ch">
+        <img id="image" src="http://www.buffalo.edu/content/dam/www/news/photos/2015/03/Bulls/campus/20025134_1_1.jpg" height="600" width="800" style="background-color: aliceblue">
+    </div>
+
+</body>
+</html>
